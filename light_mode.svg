@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1018px" height="637px"
+     font-family="ConsolasFallback,Consolas,Menlo,monospace">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  size-adjust: 109%;
+}
+.key {fill: #bc4c00;}
+.value {fill: #0550ae;}
+.title {fill: #bc4c00; font-weight: bold;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #8c959f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1018px" height="637px" fill="#ffffff" rx="15"/>
+<text fill="#24292f" font-size="13.28px" class="ascii">
+<tspan x="15" y="28.28">     .--====================================--.</tspan>
+<tspan x="15" y="43.02">   -+=:..                                  ..:=+-</tspan>
+<tspan x="15" y="57.77"> .+=.                                           =+.</tspan>
+<tspan x="15" y="72.51"> *-                                              :*.</tspan>
+<tspan x="15" y="87.25">=+                                                ==</tspan>
+<tspan x="15" y="102.00">+-                                                -+</tspan>
+<tspan x="15" y="116.74">+-                                                -+</tspan>
+<tspan x="15" y="131.49">+-                                                -+</tspan>
+<tspan x="15" y="146.23">+-                                                -+</tspan>
+<tspan x="15" y="160.97">+-                                                -+</tspan>
+<tspan x="15" y="175.72">+-                                                -+</tspan>
+<tspan x="15" y="190.46">+-                                                -+</tspan>
+<tspan x="15" y="205.20">+-                                                -+</tspan>
+<tspan x="15" y="219.95">+-        :*******.          .***************+    -+</tspan>
+<tspan x="15" y="234.69">+-        *@%%%%%@+          :@%%%%@@@@@@@@@@%    -+</tspan>
+<tspan x="15" y="249.43">+-       :%%%%%%%%%:         :%%%%#==========-    -+</tspan>
+<tspan x="15" y="264.18">+-       *%%%*=%%%%*         :%%%%*               -+</tspan>
+<tspan x="15" y="278.92">+-      -%%%%- #%%%%:        :%%%%*               -+</tspan>
+<tspan x="15" y="293.66">+-      #%%%*  -%%%%*        :%%%%*               -+</tspan>
+<tspan x="15" y="308.41">+-     =%##%:   *%##%-       :%%%%#**********:    -+</tspan>
+<tspan x="15" y="323.15">+-     #%#%*    -%##%*       :%###%%%%%%%%%%@-    -+</tspan>
+<tspan x="15" y="337.90">+-    =%###:     *%##%-      .#####----------.    -+</tspan>
+<tspan x="15" y="352.64">+-   .####*::::::=#####      .###%*               -+</tspan>
+<tspan x="15" y="367.38">+-   +%####%%%%%%%####%=     .####*               -+</tspan>
+<tspan x="15" y="382.13">+-  .#####*********#####.    .####*               -+</tspan>
+<tspan x="15" y="396.87">+-  +####.         *####=    .####*-----------    -+</tspan>
+<tspan x="15" y="411.61">+- :%##%=          :#####:   .#####%%%%%%%%%%#    -+</tspan>
+<tspan x="15" y="426.36">+- =++++.           =++++-   .+++++++++++++++=    -+</tspan>
+<tspan x="15" y="441.10">+-                                                -+</tspan>
+<tspan x="15" y="455.84">+-                                                -+</tspan>
+<tspan x="15" y="470.59">+-                                                -+</tspan>
+<tspan x="15" y="485.33">+-                                                -+</tspan>
+<tspan x="15" y="500.08">+-                                                -+</tspan>
+<tspan x="15" y="514.82">+-                                                -+</tspan>
+<tspan x="15" y="529.56">+-                                                -+</tspan>
+<tspan x="15" y="544.31">+-                                                -+</tspan>
+<tspan x="15" y="559.05">=+                                                ==</tspan>
+<tspan x="15" y="573.79"> *:                                              :*.</tspan>
+<tspan x="15" y="588.54"> .+=                                            =+.</tspan>
+<tspan x="15" y="603.28">   -+=:.                                    .:=+-</tspan>
+<tspan x="15" y="618.02">     .--====================================--.</tspan>
+</text>
+<text fill="#24292f" font-size="16px">
+<tspan x="447" y="54.104"><tspan class="title">abdelrahman@elnagar</tspan> -————————————————————————————————————-</tspan>
+<tspan x="447" y="74.104"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> </tspan><tspan class="cc">............................................</tspan><tspan class="cc"> </tspan><tspan class="value">Windows</tspan></tspan>
+<tspan x="447" y="94.104"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>.<tspan class="key">BSA</tspan>:<tspan class="cc"> </tspan><tspan class="cc">...................</tspan><tspan class="cc"> </tspan><tspan class="value">1 year, 5 months, 8 days</tspan></tspan>
+<tspan x="447" y="114.104"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> </tspan><tspan class="cc">.....................................</tspan><tspan class="cc"> </tspan><tspan class="value">Cairo, Egypt</tspan></tspan>
+<tspan x="447" y="134.104"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> </tspan><tspan class="cc">..............................</tspan><tspan class="cc"> </tspan><tspan class="value">AI Engineer @ BSA</tspan></tspan>
+<tspan x="447" y="154.104"><tspan class="cc">. </tspan><tspan class="key">Education</tspan>:<tspan class="cc"> </tspan><tspan class="cc">................</tspan><tspan class="cc"> </tspan><tspan class="value">B.Sc. CS (Data Science), GIU</tspan></tspan>
+<tspan x="447" y="174.104" class="cc">.</tspan>
+<tspan x="447" y="194.104"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> </tspan><tspan class="cc">........</tspan><tspan class="cc"> </tspan><tspan class="value">Python, Java, C++, Julia</tspan></tspan>
+<tspan x="447" y="214.104"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> </tspan><tspan class="cc">.......................</tspan><tspan class="cc"> </tspan><tspan class="value">SQL, GraphQL</tspan></tspan>
+<tspan x="447" y="234.104"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> </tspan><tspan class="cc">...........</tspan><tspan class="cc"> </tspan><tspan class="value">Arabic, English, German (A2)</tspan></tspan>
+<tspan x="447" y="254.104" class="cc">.</tspan>
+<tspan x="447" y="274.104"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>.<tspan class="key">AI</tspan>:<tspan class="cc"> </tspan><tspan class="cc">.................</tspan><tspan class="cc"> </tspan><tspan class="value">RAG, Agentic Workflows, VLMs</tspan></tspan>
+<tspan x="447" y="294.104"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>.<tspan class="key">Vision</tspan>:<tspan class="cc"> </tspan><tspan class="cc">..........</tspan><tspan class="cc"> </tspan><tspan class="value">DINOv2, YOLOv8, Computer Vision</tspan></tspan>
+<tspan x="447" y="314.104"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>.<tspan class="key">Backend</tspan>:<tspan class="cc"> </tspan><tspan class="cc">............</tspan><tspan class="cc"> </tspan><tspan class="value">FastAPI, Django, Docker, AWS</tspan></tspan>
+<tspan x="447" y="334.104"><tspan class="cc">. </tspan><tspan class="key">Awards</tspan>:<tspan class="cc"> </tspan><tspan class="cc">....................</tspan><tspan class="cc"> </tspan><tspan class="value">Kaggle 1st x2, DAAD Scholar</tspan></tspan>
+<tspan x="447" y="354.104"><tspan class="cc">. </tspan><tspan class="key">Certs</tspan>:<tspan class="cc"> </tspan><tspan class="cc">.....................</tspan><tspan class="cc"> </tspan><tspan class="value">AWS AI + Cloud Practitioner</tspan></tspan>
+<tspan x="447" y="374.104" class="cc">.</tspan>
+<tspan x="447" y="394.104">- Contact -——————————————————————————————————————————————-</tspan>
+<tspan x="447" y="414.104"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> </tspan><tspan class="cc">.................</tspan><tspan class="cc"> </tspan><tspan class="value">abdelrahmanelnagar123@gmail.com</tspan></tspan>
+<tspan x="447" y="434.104"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> </tspan><tspan class="cc">..........................</tspan><tspan class="cc"> </tspan><tspan class="value">abdelrahman-elnagar</tspan></tspan>
+<tspan x="447" y="454.104"><tspan class="cc">. </tspan><tspan class="key">Portfolio</tspan>:<tspan class="cc"> </tspan><tspan class="cc">...........</tspan><tspan class="cc"> </tspan><tspan class="value">abdelrahman-elnagar.my.canva.site</tspan></tspan>
+<tspan x="447" y="474.104" class="cc">.</tspan>
+<tspan x="447" y="494.104">- GitHub Stats -—————————————————————————————————————————-</tspan>
+<tspan x="447" y="514.104"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> </tspan><tspan class="cc">........</tspan><tspan class="cc"> </tspan><tspan class="value">--</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">--</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> </tspan><tspan class="cc">.......</tspan><tspan class="cc"> </tspan><tspan class="value">--</tspan></tspan>
+<tspan x="447" y="534.104"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> </tspan><tspan class="cc">..............</tspan><tspan class="cc"> </tspan><tspan class="value">--</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> </tspan><tspan class="cc">.............</tspan><tspan class="cc"> </tspan><tspan class="value">--</tspan></tspan>
+<tspan x="447" y="554.104"><tspan class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> </tspan><tspan class="cc">.......................</tspan><tspan class="cc"> </tspan><tspan class="value">--</tspan> ( <tspan class="addColor">--</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">--</tspan><tspan class="delColor">--</tspan> )</tspan>
+<tspan x="447" y="594.104"><tspan class="key">&gt; </tspan><tspan class="value">█<animate attributeName="opacity" values="1;0" dur="1.06s" calcMode="discrete" repeatCount="indefinite"/></tspan></tspan>
+</text>
+</svg>

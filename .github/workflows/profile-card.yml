@@ -1,0 +1,81 @@
+# Refreshes the neofetch-style profile card, the link buttons and the Pac-Man
+# board (all the *.svg files in the repo root).
+#
+# fetch_stats.py reads GitHub's public API and caches the slow lines-of-code
+# walk in cache/loc.json; the build scripts then regenerate every SVG from
+# assets/ + cache/. The cache is committed back, so the next run only walks
+# repos whose head commit actually moved.
+name: Update Profile Card
+
+on:
+  # Refresh the numbers once a day.
+  schedule:
+    - cron: "0 5 * * *"
+
+  workflow_dispatch:
+
+  # Rebuild immediately when the art or the generators change, but not on every
+  # unrelated push, which would just add commit noise.
+  push:
+    branches: [main]
+    paths:
+      - "assets/**"
+      - "tools/**"
+      - ".github/workflows/profile-card.yml"
+
+permissions:
+  contents: write
+
+# A scheduled run and a manual run overlapping would race on the same commit.
+concurrency:
+  group: profile-card
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v4
+        with:
+          # Rebasing below needs a real merge base, which a shallow clone lacks.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch GitHub stats
+        env:
+          # Optional: a classic PAT with `repo` scope (saved as the STATS_TOKEN
+          # secret) also counts private repositories. Without it the built-in
+          # token still covers everything public.
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/fetch_stats.py
+
+      - name: Rebuild the card
+        run: python tools/build_card.py
+
+      - name: Rebuild the link buttons
+        run: python tools/build_links.py
+
+      - name: Rebuild the Pac-Man board
+        run: python tools/build_pacman.py
+
+      - name: Commit the regenerated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- '*.svg' 'cache/*.json'
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile card stats"
+          # main can move while the stats are fetched; the SVGs are deterministic
+          # build outputs, so replaying them on top of whatever landed is safe.
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
